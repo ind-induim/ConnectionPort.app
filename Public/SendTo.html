@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload or Share</title>
+    <link rel="stylesheet" href="/static/upload.css">
+    <script src="/static/upload.js" defer></script>
+</head>
+<body>
+    <div class="upload-container">
+        <h1>Share Your Data</h1>
+        <form id="upload-form">
+            <textarea id="text-input" name="text" placeholder="Enter text to share (optional)"></textarea>
+            <input type="file" id="file-input" name="file">
+            <button type="submit">Share</button>
+        </form>
+        <div id="response" class="response-box"></div>
+    </div>
+    <script src="/static/upload.js"></script>
+</body>
+</html>
